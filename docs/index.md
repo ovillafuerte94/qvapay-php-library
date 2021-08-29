@@ -1,4 +1,4 @@
-# QvaPay API client for Php
+# Php library for Qvapay API
 
 ![Banner](https://banners.beyondco.de/Qvapay.png?theme=dark&packageManager=composer+require&packageName=ovillafuerte94%2Fqvapay&pattern=architect&style=style_1&description=QvaPay+API+Client+for+Php+language&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg)
 
@@ -8,7 +8,7 @@
 ![Check & fix styling](https://img.shields.io/github/workflow/status/ovillafuerte94/qvapay/Check%20&%20fix%20styling?label=code%20style)
 [![Total Downloads](https://img.shields.io/packagist/dt/ovillafuerte94/qvapay.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay)
 
-Non official, QvaPay API Client for the Php language.
+This PHP library facilitates the integration of the Qvapay API.
 
 ## Sign up on QvaPay
 

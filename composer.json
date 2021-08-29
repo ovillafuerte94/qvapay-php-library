@@ -1,6 +1,6 @@
 {
     "name": "ovillafuerte94/qvapay",
-    "description": "QvaPay API client for Php",
+    "description": "This PHP library facilitates the integration of the Qvapay API",
     "keywords": [
         "php",
         "api",
