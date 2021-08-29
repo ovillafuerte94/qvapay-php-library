@@ -1,10 +1,10 @@
 # Php library for Qvapay API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ovillafuerte94/qvapay.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ovillafuerte94/qvapay-php-library.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay-php-library)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
-![Tests](https://github.com/ovillafuerte94/qvapay/workflows/Tests/badge.svg)
-![Check & fix styling](https://img.shields.io/github/workflow/status/ovillafuerte94/qvapay/Check%20&%20fix%20styling?label=code%20style)
-[![Total Downloads](https://img.shields.io/packagist/dt/ovillafuerte94/qvapay.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay)
+![Tests](https://github.com/ovillafuerte94/qvapay-php-library/workflows/Tests/badge.svg)
+![Check & fix styling](https://img.shields.io/github/workflow/status/ovillafuerte94/qvapay-php-library/Check%20&%20fix%20styling?label=code%20style)
+[![Total Downloads](https://img.shields.io/packagist/dt/ovillafuerte94/qvapay-php-library.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay-php-library)
 
 This PHP library facilitates the integration of the Qvapay API.
 
@@ -22,7 +22,7 @@ Create your account to process payments through QvaPay at [https://qvapay.com/re
 You can install the package via composer:
 
 ```bash
-composer require ovillafuerte94/qvapay
+composer require ovillafuerte94/qvapay-php-library
 ```
 
 ## Usage

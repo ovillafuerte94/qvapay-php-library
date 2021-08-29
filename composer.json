@@ -1,5 +1,5 @@
 {
-    "name": "ovillafuerte94/qvapay",
+    "name": "ovillafuerte94/qvapay-php-library",
     "description": "This PHP library facilitates the integration of the Qvapay API",
     "keywords": [
         "php",
@@ -7,7 +7,7 @@
         "payments",
         "qvapay"
     ],
-    "homepage": "https://github.com/ovillafuerte94/qvapay",
+    "homepage": "https://github.com/ovillafuerte94/qvapay-php-library",
     "license": "MIT",
     "authors": [
         {
