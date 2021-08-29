@@ -1,0 +1,62 @@
+site_name: QvaPay API client for Php
+site_description: Non official, but friendly QvaPay library for the Php language.
+site_url: https://github.com/ovillafuerte94/qvapay
+repo_url: https://github.com/ovillafuerte94/qvapay
+edit_uri: 'https://github.com/ovillafuerte94/qvapay/edit/main/docs'
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+  palette:
+    primary: black
+    accent: light blue
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - meta
+  - toc:
+      permalink: 🔗
+
+nav:
+  - Home: index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ovillafuerte94
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/ovillafuerte94
+      name: GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/ovillafuerte94
+      name: Gitlab
+    - icon: fontawesome/solid/code
+      link: https://profile.codersrank.io/user/ovillafuerte94
+      name: Codersrank
+    - icon: fontawesome/brands/dev
+      link: https://dev.to/ovillafuerte94
+      name: Dev.to
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/5518832/omar-villafuerte
+      name: Stack Overflow
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@ovillafuerte94
+      name: Medium
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ovillafuerte94
+      name: Twitter
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/ovillafuerte94
+      name: Telegram
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ovillafuerte94
+      name: Facebook
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:ovillafuerte.94@gmail.com
+      name: Gmail
