@@ -1,8 +1,8 @@
-site_name: QvaPay API client for Php
-site_description: Non official, but friendly QvaPay library for the Php language.
-site_url: https://github.com/ovillafuerte94/qvapay
-repo_url: https://github.com/ovillafuerte94/qvapay
-edit_uri: 'https://github.com/ovillafuerte94/qvapay/edit/main/docs'
+site_name: Php library for Qvapay API
+site_description: This PHP library facilitates the integration of the Qvapay API.
+site_url: https://github.com/ovillafuerte94/qvapay-php-library
+repo_url: https://github.com/ovillafuerte94/qvapay-php-library
+edit_uri: 'https://github.com/ovillafuerte94/qvapay-php-library/edit/main/docs'
 
 theme:
   name: material
