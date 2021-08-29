@@ -1,6 +1,6 @@
 # Php library for Qvapay API
 
-![Banner](https://banners.beyondco.de/Qvapay.png?theme=dark&packageManager=composer+require&packageName=ovillafuerte94%2Fqvapay&pattern=architect&style=style_1&description=QvaPay+API+Client+for+Php+language&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg)
+![Banner](https://banners.beyondco.de/Qvapay.png?theme=dark&packageManager=composer+require&packageName=ovillafuerte94%2Fqvapay-php-library&pattern=architect&style=style_1&description=PHP+library+for+Qvapay+API+integration&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ovillafuerte94/qvapay-php-library.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay-php-library)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
