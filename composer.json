@@ -35,10 +35,7 @@
     "autoload-dev": {
         "psr-4": {
             "Qvapay\\Tests\\": "tests"
-        },
-        "files": [
-            "lib/helpers.php"
-        ]
+        }
     },
     "scripts": {
         "test": "vendor/bin/phpunit",

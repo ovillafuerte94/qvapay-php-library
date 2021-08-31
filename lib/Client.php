@@ -189,7 +189,7 @@ class Client
             );
         } else {
             $response = $request->getBody()->getContents();
-            if (isJson($response)) {
+            if (Helpers::isJson($response)) {
                 return json_decode($response);
             } else {
                 return $response;
