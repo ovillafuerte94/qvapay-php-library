@@ -2,7 +2,7 @@
 
 namespace QvaPay;
 
-use \Exception;
+use Exception;
 
 /**
  * ClientException Class

@@ -59,13 +59,13 @@ class Client
     {
         if (empty($config['app_id'])) {
             throw new \InvalidArgumentException('The app_id parameter is required');
-        }else {
+        } else {
             $this->app_id = $config['app_id'];
         }
 
         if (empty($config['app_secret'])) {
             throw new \InvalidArgumentException('The app_secret parameter is required');
-        }else {
+        } else {
             $this->app_secret = $config['app_secret'];
         }
 
@@ -97,11 +97,11 @@ class Client
      */
     public function create_invoice(array $data)
     {
-        if (!array_key_exists('amount', $data)) {
+        if (! array_key_exists('amount', $data)) {
             throw new \InvalidArgumentException('The amount parameter is required');
         }
 
-        if (!is_numeric($data['amount'])) {
+        if (! is_numeric($data['amount'])) {
             throw new \InvalidArgumentException('The amount parameter not valid');
         }
 
@@ -165,7 +165,7 @@ class Client
                 'query' => array_merge($data, [
                     'app_id' => $this->app_id,
                     'app_secret' => $this->app_secret,
-                ])
+                ]),
             ]);
         } catch (RequestException $e) {
             throw new ClientException(
@@ -191,7 +191,7 @@ class Client
             $response = $request->getBody()->getContents();
             if (isJson($response)) {
                 return json_decode($response);
-            }else{
+            } else {
                 return $response;
             }
         }
