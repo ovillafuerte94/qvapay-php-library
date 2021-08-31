@@ -34,46 +34,70 @@ composer require ovillafuerte94/qvapay-php-library
 require_once __DIR__ . '/vendor/autoload.php';
 
 use  Qvapay\Client;
-
-$qvapay = new Client([
-    'app_id' => 'XXX', 
-    'app_secret' => 'XXX',
-    'version' => '1'
-]);
+try {
+    $qvapay = new Client([
+        'app_id' => 'XXX', 
+        'app_secret' => 'XXX',
+        'version' => '1'
+    ]);
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 - Get your app info
 
 ```php
-var_dump($qvapay->info());
+try {
+    print_r($qvapay->info());
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 - Create an invoice
 
 ```php
-var_dump($qvapay->create_invoice([
-    'amount' => 10,
-    'description' => 'Ebook',
-    'remote_id' => 'EE-BOOk-123' # example remote invoice id
-]));
+try {
+    $invoice = $qvapay->create_invoice([
+        'amount' => 10,
+        'description' => 'Ebook',
+        'remote_id' => 'EE-BOOk-123' # example remote invoice id
+    ]);
+    print_r($invoice);
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 - Get transactions
 
 ```php
-var_dump($qvapay->transactions());
+try {
+    print_r($qvapay->transactions());
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 - Get transaction
 
 ```php
-var_dump($qvapay->get_transaction($uuid));
+try {
+    print_r($qvapay->get_transaction($uuid));
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 - Get your account balance
 
 ```php
-var_dump($qvapay->balance());
+try {
+    echo $qvapay->balance();
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
 ```
 
 You can also read the QvaPay API documentation: [https://qvapay.com/docs](https://qvapay.com/docs).
