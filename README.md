@@ -4,6 +4,7 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 ![Tests](https://github.com/ovillafuerte94/qvapay-php-library/workflows/Tests/badge.svg)
 ![Check & fix styling](https://img.shields.io/github/workflow/status/ovillafuerte94/qvapay-php-library/Check%20&%20fix%20styling?label=code%20style)
+![StyleCI](https://github.styleci.io/repos/401117030/shield?branch=main)
 [![Total Downloads](https://img.shields.io/packagist/dt/ovillafuerte94/qvapay-php-library.svg?style=flat)](https://packagist.org/packages/ovillafuerte94/qvapay-php-library)
 
 This PHP library facilitates the integration of the Qvapay API.
