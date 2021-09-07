@@ -3,19 +3,21 @@
 namespace Qvapay;
 
 /**
- * Helpers Class
+ * Helpers Class.
  *
  * @category Abstract Class
- * @package  QvaPay
+ *
  * @author   Omar Villafuerte
+ *
  * @link    https://ovillafuerte94.is-a.dev
  */
 abstract class Helpers
 {
     /**
-     * Check if a string is JSON
+     * Check if a string is JSON.
      *
-     * @param string    $string
+     * @param string $string
+     *
      * @return bool
      */
     public static function isJson(string $string): bool

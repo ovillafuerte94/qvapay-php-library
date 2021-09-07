@@ -5,11 +5,12 @@ namespace QvaPay;
 use Exception;
 
 /**
- * ClientException Class
+ * ClientException Class.
  *
  * @category Class
- * @package  QvaPay
+ *
  * @author   Omar Villafuerte
+ *
  * @link     https://ovillafuerte94.is-a.dev
  */
 class ClientException extends Exception
@@ -29,21 +30,21 @@ class ClientException extends Exception
     protected $responseHeaders;
 
     /**
-     * The deserialized response object
+     * The deserialized response object.
      *
      * @var \stdClass|string|null
      */
     protected $responseObject;
 
     /**
-     * Constructor
+     * Constructor.
      *
      * @param string                $message         Error message
      * @param int                   $code            HTTP status code
      * @param string[]|null         $responseHeaders HTTP response header
      * @param \stdClass|string|null $responseBody    HTTP decoded body of the server response either as \stdClass or string
      */
-    public function __construct(string $message = "", int $code = 0, $responseHeaders = [], $responseBody = null)
+    public function __construct(string $message = '', int $code = 0, $responseHeaders = [], $responseBody = null)
     {
         parent::__construct($message, $code);
         $this->setResponseHeaders($responseHeaders);
@@ -53,7 +54,7 @@ class ClientException extends Exception
     /**
      * Get the HTTP body of the server response either as Json or string.
      *
-     * @return  \stdClass|string|null
+     * @return \stdClass|string|null
      */
     public function getResponseBody()
     {
@@ -63,9 +64,9 @@ class ClientException extends Exception
     /**
      * Set the HTTP body of the server response either as Json or string.
      *
-     * @param  \stdClass|string|null  $responseBody  The HTTP body of the server response either as Json or string.
+     * @param \stdClass|string|null $responseBody The HTTP body of the server response either as Json or string.
      *
-     * @return  self
+     * @return self
      */
     public function setResponseBody($responseBody)
     {
@@ -77,7 +78,7 @@ class ClientException extends Exception
     /**
      * Get the HTTP header of the server response.
      *
-     * @return  string[]|null
+     * @return string[]|null
      */
     public function getResponseHeaders()
     {
@@ -87,9 +88,9 @@ class ClientException extends Exception
     /**
      * Set the HTTP header of the server response.
      *
-     * @param  string[]|null  $responseHeaders  The HTTP header of the server response.
+     * @param string[]|null $responseHeaders The HTTP header of the server response.
      *
-     * @return  self
+     * @return self
      */
     public function setResponseHeaders($responseHeaders)
     {
@@ -99,9 +100,9 @@ class ClientException extends Exception
     }
 
     /**
-     * Get the deserialized response object
+     * Get the deserialized response object.
      *
-     * @return  \stdClass|string|null
+     * @return \stdClass|string|null
      */
     public function getResponseObject()
     {
@@ -109,11 +110,11 @@ class ClientException extends Exception
     }
 
     /**
-     * Set the deserialized response object
+     * Set the deserialized response object.
      *
-     * @param  \stdClass|string|null  $responseObject  The deserialized response object
+     * @param \stdClass|string|null $responseObject The deserialized response object
      *
-     * @return  self
+     * @return self
      */
     public function setResponseObject($responseObject)
     {
