@@ -11,7 +11,7 @@ namespace Qvapay;
  *
  * @link    https://ovillafuerte94.is-a.dev
  */
-abstract class Helpers
+abstract class helpers
 {
     /**
      * Check if a string is JSON.
