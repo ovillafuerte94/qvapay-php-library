@@ -99,11 +99,11 @@ class Client
      */
     public function create_invoice(array $data)
     {
-        if (! array_key_exists('amount', $data)) {
+        if (!array_key_exists('amount', $data)) {
             throw new \InvalidArgumentException('The amount parameter is required');
         }
 
-        if (! is_numeric($data['amount'])) {
+        if (!is_numeric($data['amount'])) {
             throw new \InvalidArgumentException('The amount parameter not valid');
         }
 
@@ -168,7 +168,7 @@ class Client
         try {
             $request = $this->http_client->request('GET', $endpoint, [
                 'query' => array_merge($data, [
-                    'app_id' => $this->app_id,
+                    'app_id'     => $this->app_id,
                     'app_secret' => $this->app_secret,
                 ]),
             ]);
