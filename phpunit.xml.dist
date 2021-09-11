@@ -25,7 +25,7 @@
     </testsuites>
     <coverage>
         <include>
-            <directory suffix=".php">./src</directory>
+            <directory suffix=".php">./lib</directory>
         </include>
         <report>
             <html outputDirectory="build/coverage"/>
